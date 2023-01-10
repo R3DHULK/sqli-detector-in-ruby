@@ -7,7 +7,7 @@ def scan(url)
   payloads.each do |payload|
     response = HTTP.get(url + payload)
     if response.code == 200
-      puts "Possible SQL Injection Vulnerability Found At #{url}"
+      puts " [*] Possible SQL Injection Vulnerability Found At #{url}"
       break
     end
   end
