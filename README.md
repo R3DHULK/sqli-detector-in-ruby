@@ -93,7 +93,7 @@ git clone https://github.com/R3DHULK/sqli-detector-in-ruby
 cd sqli-detector-in-ruby
 
 # Execute
-ruby sqli-detector-in-ruby.rb
+ruby sql-injection-detector.rb 
 ```
 
 #
